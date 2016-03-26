@@ -1,0 +1,81 @@
+body{
+	font-family: 'Montserrat',sans-serif;
+	color:black;
+}
+b{
+	color:white;
+	text-indent:20px;
+}
+
+.main-box{
+	background-color: #F35958;
+	width:452px;
+	height:159px;
+	border:10px solid #f2f2f2;
+}
+p{
+	font-size: 10px;
+	text-indent:20px;
+	margin:0px;
+	margin-top: 20px;
+}
+.title{
+	font-size: 12px;
+}
+#money{
+	font-size: 28px;
+	margin-top: 10px;
+	color:white;
+}
+
+.lasttext{
+	opacity:0.3;
+}
+
+.progress-wrapper{
+	background:rgba(0,0,0,0.3);
+	margin-top:10px;
+	margin-left:20px;
+	width:70%;
+	
+}
+.progress{
+	margin:0px;
+	position:static;
+	z-index:10;
+}
+.menu{
+	float:right;
+	margin:0;
+	margin-top:10px;
+	margin-right:10px; 
+	opacity:0.3;
+}
+.refresh{
+	width:20px;
+	height:auto;
+}
+.clear{
+	width:20px;
+	height:auto;
+}
+.up{
+	display:inline-block;
+	width:20px;
+	height:auto;
+	color:#FFFFFF;
+	border:3px solid;
+	border-radius:50%;
+	float:left;
+	margin-left: 20px;
+	filter: brightness(0) invert(1);
+	-webkit-filter: brightness(0) invert(1);
+	-moz-filter: brightness(0) invert(1);
+	-o-filter: brightness(0) invert(1);
+}
+.wraptext{
+	display:inline-block;
+	clear:both;
+	font-size: 12px;
+	margin-left: 10px;
+}

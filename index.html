@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Some progress bar</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="main-box">
+			<div class="menu">
+				<a href="javascript:location.reload(true)">
+					<img class="refresh" src="images/ic_refresh_black_24dp_1x.png"></img></a>
+					<a href="#" onclick="$('#wrapper').css('opacity','0');">
+						<img class="clear" src="images/ic_clear_black_24dp_1x.png"></img></a>
+			</div>
+			<p class="title"><b>TODAY'S SALES</b></p>
+			<p id="money"></p>
+			<div class="progress-wrapper">
+			<div class="progress"></div>
+		</div>
+			<div class="growth">
+			<p class="fin"><img class="up" src="images/ic_file_upload_black_24dp_1x.png"></img>
+				<div class="wraptext">
+					<b>5% higher</b> 
+					<span class="lasttext">than last month</span>
+				</div>
+			</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="progressbar.js-master/dist/progressbar.js"></script>
+	<script type="text/javascript" src="scripts/countUp.js"></script>
+	
+</body>
+</html>
+
+
